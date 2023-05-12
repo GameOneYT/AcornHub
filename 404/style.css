@@ -1,0 +1,141 @@
+html {
+   overflow:hidden;
+}
+
+
+
+
+
+
+/* ----------------------- */
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background: #000;
+   color: #fff;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+}
+
+img {
+   border: none;
+}
+
+div form {
+   display: block;
+}
+
+
+
+.error404{
+   font-family: sans-serif;
+   font-size: 1000%;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: rgba(255, 255, 255, 0.5);
+   text-shadow: 0px 0px 11px rgba(255, 255, 255, 0.5);
+}
+
+#text404 {
+   font-family: sans-serif;
+   font-size: calc(10px + 100%);
+   position: fixed;
+   top: 80%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: rgba(255, 255, 255, 0.5);
+   text-shadow: 0px 0px 11px rgba(255, 255, 255, 0.397);
+   text-align: center;
+}
+
+.error404ahlogo{
+   font-family: sans-serif;
+   size: calc(10px + 100%);
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: rgba(255, 255, 255, 0.5);
+   text-shadow: 0px 0px 11px rgba(255, 255, 255, 0.5);
+   filter: grayscale();
+   visibility: hidden;
+}
+
+/* Top-bar */
+
+#header-wrapper #header-container {
+   width: 100%;
+   margin: 0;
+   background-color: rgba(27, 27, 27, 0);
+}
+
+
+
+#header-wrapper {
+   margin-bottom: 20px;
+   position: fixed;
+   width: 100%;
+   backdrop-filter: blur(3px);
+   transition: 0.3s;
+}
+
+#header-wrapper:hover{
+   background-color: rgba(27, 27, 27, 0.75);
+
+}
+
+#header-container {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: auto;
+   /* min-width: 991px; */
+   /* max-width: 1323px; */
+   width: 96%;
+}
+
+#loggo {
+   display: inline-block;
+   position: relative;
+   height: auto;
+   min-height: 40px;
+   max-height: 40px;
+}
+
+
+#div-searchbar {
+   padding: 10px;
+   display: inline-block;
+   vertical-align: top;
+}
+
+
+#searchbar {
+   background-color: #252525;
+   width: 100%;
+   height: 26px;
+   display: grid;
+   grid-template-columns: 30px 8fr;
+   position: relative;
+   vertical-align: top;
+   border-radius: 0 3px 3px 0;
+   box-sizing: border-box;
+   color: #fff;
+   font-size: 14px;
+   border: none;
+}
+
+
+#search-submit {
+   background-color: #252525;
+   color: whitesmoke;
+   visibility: hidden;
+}
+

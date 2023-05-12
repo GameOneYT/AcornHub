@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: #ffa31a;
+}
+h4{
+    color: white;
+}
+
+#loggo{
+    max-width: 30%;
+    max-height: 30%;
+}

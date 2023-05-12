@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+img {
+    border: none;
+}
+
+div form {
+    display: block;
+}
+
+
+/* Top-bar */
+
+#header-wrapper #header-container {
+    width: 100%;
+    margin: 0;
+}
+
+#header-wrapper {
+    background-color: #1b1b1b;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: rgb(27, 27, 27);
+    /* min-width: 991px; */
+    /* max-width: 1323px; */
+    width: 96%;
+}
+
+#loggo {
+    display: inline-block;
+    position: relative;
+    height: auto;
+    min-height: 40px;
+    max-height: 40px;
+}
+
+
+#div-searchbar {
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+#searchbar {
+    background-color: #252525;
+    width: 100%;
+    height: 26px;
+    display: grid;
+    grid-template-columns: 30px 8fr;
+    position: relative;
+    vertical-align: top;
+    border-radius: 0 3px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+}
+
+
+#search-submit {
+    background-color: #252525;
+    color: whitesmoke;
+    visibility: hidden;
+}
+
+/* Login form */
+#profileMenu{
+    border: 1px solid #ff9900;
+}
+
+.form-container {
+}
+
+
+/* post */
+#post {
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: 90%;
+    min-height: 100px;
+    border: 3px solid #fff;
+    margin-bottom: 50px;
+}
+
+#post_user_image {
+    max-width: 5%;
+    border-radius: 100%;
+    float: left;
+}
+
+#post_text {
+    clear: both;
+}
+
+#post_image {
+    max-width: 80%;
+}
+
